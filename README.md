@@ -6,6 +6,8 @@ Book Carousel is your go-to book comparison website.
 
 The site is deployed [here](https://book-carousel.herokuapp.com/).
 
+[Here's](https://www.youtube.com/watch?v=hKOk-d5qepg) a video of a quick walk through of the project.
+
 ### Data
 
 ##
