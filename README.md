@@ -2,9 +2,11 @@
 
 # Book Carousel
 
-Book Carousel is your go-to book comparison shopping website.
+Book Carousel is your go-to book comparison website.
 
 The site is deployed [here](https://book-carousel.herokuapp.com/).
+
+[Here's](https://www.youtube.com/watch?v=hKOk-d5qepg) a video of a quick walk through of the project.
 
 ### Data
 
@@ -22,7 +24,7 @@ API Used:
 - Book Cards: show a given book's title, description, author, ISBN13, and rating and has options to purchase or learn more about the book
 - User can save a given book to "Saved Books" (Must be logged in)
 - In the User's "Saved Books", User can further filter their saved books by searching for a book's author, title, or ISBN. User can also remove a book from their saved books.
-- User can create, edit, or delete their account (account creation not necessary to use app)
+- User can create an account, edit its password or username, and delete the account (account creation not necessary to use app)
 
 ### User Flow
 
