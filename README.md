@@ -6,6 +6,8 @@ Book Carousel is your go-to book comparison website.
 
 The site is deployed [here](https://book-carousel.herokuapp.com/).
 
+[Here's](https://www.youtube.com/watch?v=hKOk-d5qepg) a video of a quick walk through of the project.
+
 ### Data
 
 ##
@@ -52,8 +54,6 @@ An overview of how the database is set up.
 ##
 
 Make sure to activate your virtual environment before running test
-
-Follow Along to get them running:
 
 1. Remove the "#" at the beginning of line 21 in the app.py
 2. In your terminal, run this command python3 -m unittest tests.py
