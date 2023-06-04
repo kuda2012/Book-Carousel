@@ -20,7 +20,7 @@ CREATE TABLE users (
 
 CREATE TABLE saved_books(
     id TEXT PRIMARY KEY,
-    isbn13 INT,
+    isbn13 TEXT,
     title TEXT,
     authors TEXT [],
     authors_string TEXT ,
@@ -52,7 +52,7 @@ CREATE TABLE users (
 
 CREATE TABLE saved_books(
     id TEXT PRIMARY KEY,
-    isbn13 INT,
+    isbn13 TEXT,
     title TEXT,
     authors TEXT [],
     authors_string TEXT ,

@@ -19,9 +19,9 @@ CURR_USER_KEY = "curr_user"
 # Get DB_URI from environ variable (useful for production/testing) or,
 # if not set there, use development local db.
 test_db = None
-test_db = "postgres://postgres@127.0.0.1:5432/book_db_test"
+# test_db = "postgres://postgres@127.0.0.1:5432/book_db_test"
+# app.config['SQLALCHEMY_DATABASE_URI'] = (os.environ.get('DATABASE_URL', test_db or "postgres://postgres@127.0.0.1:5432/book_db"))
 app.config['SQLALCHEMY_DATABASE_URI'] = (os.environ.get('DATABASE_URL', test_db or "postgres://postgres@127.0.0.1:5432/book_db"))
-
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 app.config['SQLALCHEMY_ECHO'] = False
 app.config['DEBUG_TB_INTERCEPT_REDIRECTS'] = False
