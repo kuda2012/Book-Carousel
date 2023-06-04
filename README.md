@@ -47,7 +47,7 @@ API Used:
 ##
 
 An overview of how the database is set up.  
-![image info](./database_design.png)
+![image info](./api/database_design.png)
 
 ### Tests
 
