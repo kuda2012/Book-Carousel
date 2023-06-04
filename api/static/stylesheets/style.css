@@ -1,0 +1,113 @@
+.cards {
+  max-width: 150px;
+  display: flex;
+  flex-direction: column;
+}
+.cardImgSize {
+  max-height: 200px;
+  max-width: 150px;
+}
+.modalImages {
+  max-width: 150px;
+  max-height: 200px;
+}
+.modalTitle {
+  color: black;
+}
+.modalParagraph {
+  font-size: 12px;
+  color: black;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 100px;
+  width: 100px;
+  background-size: 100%, 100%;
+  background-image: none;
+}
+.carousel-control-next-icon:after {
+  content: ">";
+  font-size: 30px;
+  font-weight: bold;
+  color: black;
+}
+
+.carousel-control-prev-icon:after {
+  content: "<";
+  font-size: 30px;
+  font-weight: bold;
+  color: black;
+}
+
+.carousel-control-prev-icon:hover {
+  transform: scale(1.03);
+
+  transition: transform 0.2s;
+}
+
+.carousel-control-next-icon:hover {
+  transform: scale(1.03);
+
+  transition: transform 0.2s;
+}
+
+#closeButtonFooter {
+  width: 84px;
+}
+#closeButtonFooterSaved {
+  margin-right: 27px;
+}
+
+#closeButtonDiv {
+  margin-right: 72px;
+}
+#submitButtonMyBooks {
+  height: 27px;
+  width: 52px;
+  font-size: 10px;
+  padding: 0px;
+}
+
+#showSavedBooks {
+  height: 27px;
+  width: 52px;
+  font-size: 10px;
+  padding: 0px;
+}
+
+.cards:hover {
+  transform: scale(1.03);
+  transition: transform 0.2s;
+}
+
+.cards:active {
+  transform: scale(0.97);
+  transition: transform 0.2s;
+}
+span.stars,
+span.stars span {
+  display: block;
+  background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/747/star-o-white.svg)
+    0 0 repeat-x;
+  width: 200px; /* width of a star multiplied by 5 */
+  height: 40px; /* the height of the star */
+  background-size: 40px 40px;
+}
+
+span.stars span {
+  background-position: 0 0;
+  background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/747/star.svg);
+}
+.labels {
+  font-size: large;
+}
+#firstSearchLabel {
+  color: black;
+  text-shadow: 1px 0 black;
+  font-weight: 800;
+}
+
+#subtitles {
+  margin: 20px 0;
+}
