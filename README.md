@@ -1,4 +1,4 @@
-![image info](./api/Icon.JPG)
+![image info](./Icon.JPG)
 
 # Book Carousel
 
@@ -47,7 +47,7 @@ API Used:
 ##
 
 An overview of how the database is set up.  
-![image info](./api/database_design.png)
+![image info](./database_design.png)
 
 ### Tests
 

@@ -4,7 +4,7 @@ from werkzeug.datastructures import MultiDict
 from forms import BookConditionsForm, UserForm, LoginForm, EditUsernameForm, EditUserPasswordForm, DeleteUserForm, SearchSavedBooks, UserEmailForm
 from flask_debugtoolbar import DebugToolbarExtension
 from sqlalchemy.exc import IntegrityError
-from models import db, User, connect_db, SavedBooks
+from api.models import db, User, connect_db, SavedBooks
 import os
 import re
 from flask_limiter import Limiter
