@@ -1,10 +1,10 @@
 from flask import Flask, render_template, request, jsonify, session, g, redirect, flash, json
 import requests
 from werkzeug.datastructures import MultiDict
-from api.forms import BookConditionsForm, UserForm, LoginForm, EditUsernameForm, EditUserPasswordForm, DeleteUserForm, SearchSavedBooks, UserEmailForm
+from forms import BookConditionsForm, UserForm, LoginForm, EditUsernameForm, EditUserPasswordForm, DeleteUserForm, SearchSavedBooks, UserEmailForm
 from flask_debugtoolbar import DebugToolbarExtension
 from sqlalchemy.exc import IntegrityError
-from api.models import db, User, connect_db, SavedBooks
+from models import db, User, connect_db, SavedBooks
 import os
 import re
 from flask_limiter import Limiter

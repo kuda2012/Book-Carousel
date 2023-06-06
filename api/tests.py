@@ -55,7 +55,7 @@ class HomeViewsTestCase(TestCase):
     def test_login(self):
         "Check if session changes with login"
         with app.test_client() as client:
-            from api.forms import LoginForm
+            from forms import LoginForm
             res = client.get("/login")
             raised = False
             try:
@@ -81,7 +81,7 @@ class HomeViewsTestCase(TestCase):
     def test_signup_and_delete(self):
         "Check if session changes with signup and check if profile is deleted"
         with app.test_client() as client:
-            from api.forms import LoginForm
+            from forms import LoginForm
             res = client.get("/signup")
         # Status:Signed out
             raised = False
@@ -119,7 +119,7 @@ class HomeViewsTestCase(TestCase):
     def test_edit_username(self):
         "Check if session changes with login"
         with app.test_client() as client:
-            from api.forms import LoginForm
+            from forms import LoginForm
             # DB comes loaded with testuser
             res2 = client.post("/login",
             data=({"username": "testuser", "password": "password"}),
@@ -148,7 +148,7 @@ class HomeViewsTestCase(TestCase):
     def test_edit_password(self):
         "Check if session changes with login"
         with app.test_client() as client:
-            from api.forms import LoginForm
+            from forms import LoginForm
             # DB comes loaded with testuser
             res2 = client.post("/login",
             data=({"username": "testuser", "password": "password"}),
