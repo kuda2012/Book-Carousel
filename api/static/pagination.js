@@ -1,7 +1,7 @@
 let currentPage = 1;
 let numberPerPage = 9;
 let numberOfPages = 1;
-
+//
 function getNumberOfPages(list) {
   return Math.ceil(list.length / numberPerPage);
 }
