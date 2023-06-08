@@ -13,7 +13,12 @@
       "src": "api/templates/user/*.html",
       "use": "@vercel/static"
     },
-    { "src": "api/static/*.js", "use": "@vercel/node" }
+    {
+      "src": "api/static/stylesheets/*.css",
+      "use": "@vercel/static"
+    },
+    { "src": "api/static/*.js", "use": "@vercel/node" },
+    { "src": "api/static/forms/*.js", "use": "@vercel/node" }
   ],
   "routes": [
     {
