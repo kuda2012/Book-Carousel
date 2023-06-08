@@ -4,7 +4,16 @@
     {
       "src": "api/app.py",
       "use": "@vercel/python"
-    }
+    },
+    {
+      "src": "api/templates/*.html",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "api/templates/user/*.html",
+      "use": "@vercel/static"
+    },
+    { "src": "api/static/*.js", "use": "@vercel/node" }
   ],
   "rewrites": [{ "source": "/(.*)", "destination": "/" }],
   "routes": [
